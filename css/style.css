@@ -334,3 +334,51 @@ footer a {
 .underlined {
     text-decoration: underline;
 }
+
+
+
+
+@media (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+  .logo .logo_img {
+    width: 60px;
+  }
+  .logo .logo_text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .title {
+    font-size: 30px;
+    line-height: 10px;
+  }
+  .simple .title_big {
+    font-size: 60px;
+  }
+  .waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 90%;
+  }
+  .waiting .waiting_wrapper .waiting_item .waiting_descr {
+    font-size: 13px;
+  }
+  .optimization .optimization_img {
+    width: 660px;
+  }
+  .optimization .optimization_header {
+    margin-left: 241px;
+    font-size: 24px;
+  }
+  .optimization .optimization_text {
+    margin-top: 9px;
+    margin-left: 195px;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .finish .finish_wrapper .finish_item .finish_descr {
+    font-size: 15px;
+  }
+  .gift .gift_text {
+    font-size: 25px;
+  }
+}
